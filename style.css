@@ -87,3 +87,6 @@ input, select, textarea, button {
   width: 100%;
 }
 
+.podcastIcons {
+  display: inline-block;
+}
