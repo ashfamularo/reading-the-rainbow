@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading the Rainbow Podcast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Library header, nav bar, etc</h1>
+  </header>
+  <main>
+    <div class="container">
+      <section class="mainContent">
+      <div class="banner">
+        <img class="logo" src="/assets/banner-title.png" alt="Reading the Rainbow Podcast logo">
+      </div>
+      <div class="intro">
+        <p>test test test</p>
+      </div>
+      <div class="episodes">
+        <iframe width="900" height="1600" src="https://rss.app/embed/v1/wall/ZME7OzgVU4AOyyzd" frameborder="0"></iframe>
+      </div>
+      <div class="form">
+        <h2>We'd love to hear from you! </h2>
+        <p>Have a book recommendation, feedback, or general comment? Please reach out via the form below.</p>
+        <form action="">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" required />
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="reason">Reason for reaching out:</label>
+          <select id="reason" name="reason">
+            <option value="bookSuggestion">Book Suggestion</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="message">Message:</label>
+          <textarea name="message" rows="10" cols="30" required /></textarea>
+          <button type="submit">Send!</button>
+        </form>
+      </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <h1>Library footer</h1>
+  </footer>
+</body>
+</html>
